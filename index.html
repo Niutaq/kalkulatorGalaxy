@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Fizyczne wielkości </title>
+        <meta name="description" content="Kalkulator obliczający wielkości fizyczne">
+        <meta name="keywords" content="masa, objętość, gęstość, kalkulator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="logo-nq.png">
+        <link rel="stylesheet" type="text/javascript">
+    </head
+    >
+    <body>  
+        <img src="logo_pick_up2.png" class="img1" id="rusz">
+        <center>
+                <div id="pocz" class="slide-in-elliptic-top-fwd"> Kalkulator fizyczny </div>
+        </center>
+        <!-- ********************************************************-->
+        <div id="pocz2" class="tracking-in-expand"> Oblicz masę (kg) </div>
+        <div id="pocz4" class="tracking-in-expand"> Objętość(m³): Gęstość(kg/m³): </div>
+        <input type="text" class="tracking-in-expand" value="0" id="wartosc">
+        <input type="text" class="tracking-in-expand" value="0" id="wartosc2">
+        <input type="button" class="tracking-in-expand" value="Oblicz" id="wartoscx" onclick="masa()">  
+        <div id="wynik"></div>
+
+        <div id="box2" class="tracking-in-expand">
+            <div id="pocz3" class="tracking-in-expand"></div>
+            <div id="v1" class="tracking-in-expand"></div>
+            <div id="v2" class="tracking-in-expand"></div>
+            <div id="v3" class="tracking-in-expand"></div>
+        </div>
+        
+
+
+        <br></br>
+        <br></br>
+        <!--
+                <div id="pocz2" class="tracking-in-expand"> Oblicz gęstość  </div>
+                <div id="pocz5" class="tracking-in-expand"> Masa(kg): Objętość(m³): </div>
+                <input type="text" class="tracking-in-expand" value="0" id="wartosc3">
+                <input type="text" class="tracking-in-expand" value="0" id="wartosc4">
+                <input type="button" class="tracking-in-expand" value="Oblicz" id="wartoscx" onclick="gestosc()">  
+                <div id="wynik2"></div>
+        
+            <br></br>
+            <br></br>
+                <div id="pocz2" class="tracking-in-expand"> Oblicz objętość </div>
+                <div id="pocz5" class="tracking-in-expand"> Masa(kg): Gęstość(kg/m³): </div>
+                <input type="text" class="tracking-in-expand" value="0" id="wartosc5">
+                <input type="text" class="tracking-in-expand" value="0" id="wartosc6">
+                <input type="button" class="tracking-in-expand" value="Oblicz" id="wartoscx" onclick="objetosc()">  
+                <div id="wynik3"></div>
+        -->
+            
+        <!-- ********************************************************-->
+            <div id="r" class="tracking-in-expand"> Podaj promień (m): </div>
+            <input type="text" class="tracking-in-expand" value="0" id="wartosc7">
+            <input type="button" class="tracking-in-expand" value="Zatwierdz" id="wartoscx" onclick="sprawdz()">
+
+        <script src="cox.js" async defer></script>
+    </body>
+</html>
